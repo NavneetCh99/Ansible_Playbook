@@ -1,5 +1,5 @@
 ---
-- hosts: Apache_Group
+- hosts: webservers
   become: true
   tasks:
     - name: Install apcahe
