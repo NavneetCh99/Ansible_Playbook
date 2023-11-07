@@ -1,6 +1,6 @@
 ---
 - name: Download Tomcat8 from tomcat.apache.org
-  hosts: testserver
+  hosts: webservers
   vars:
     download_url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.82/bin/apache-tomcat-9.0.82.tar.gz 
 
